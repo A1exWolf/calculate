@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Style calculator Body */
+
+.cal-body{
+    width: 275px;
+    min-height: 400px;
+    background-color: #3a4655;
+    box-shadow: 0 8px 50px -7px black;
+}
+
+/* Style Cal Screen*/
+
+.cal-screen {
+    padding: 1rem;
+
+}
+
+input {
+    font-size: 2rem;
+    color: #ffff;
+    text-align: right;
+    width: 100%;
+    background-color: #3a4655;
+    outline: none;
+    border: none;
+    padding: 0.5rem 0;
+}
+
+/* Style bottoms */
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-row button {
+    width: 25%;
+    height: 65px;
+    background-color: #425062;
+    color: #ffff;
+    font-size: 1.3rem;
+    border: none;
+    border: solid #3c4857;
+    border-width: 1px 1px 0 0;
+}
+
+.button-row button.ac {
+    color: #ff7665;
+}
+
+.button-row button.opt {
+    color: #ffbc56;
+}
+
+.button-row button:hover {
+    background: #3e4b5c;
+}
